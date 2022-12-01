@@ -1,4 +1,6 @@
 import Whiteboard
+/// #whitebproj struct
+/// this struct holds the original contents of the messages
 
 public struct whitebproj {
     public private(set) var textOne = "Message Received"
