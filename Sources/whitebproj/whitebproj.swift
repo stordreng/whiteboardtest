@@ -10,19 +10,26 @@ public struct whitebproj {
     public init() {
     }
 }
-
+/// #GlobalWhiteboardSlot enum
+/// this enum is used to place messages in correct slots and to prevent 
+/// messages being placed in out of range slots.
 enum GlobalWhiteboardSlot: Int, WhiteboardSlot {
     case messageOne = 1
     case messageTwo = 2
     case messageThree = 3
 }
 
+/// #TextMessage struct
+/// this struct contains the slot in which the message should be placed
+/// and the message itself.
+/// It is initialised with both variables as inputs
 struct TextMessage: WhiteboardSlotted, Equatable {
     var whiteboardSlot: GlobalWhiteboardSlot
-    let message: String
-    
-    public init(slot: String){
+    let textMessage: String
+
+    public init(slot: GlobalWhiteboardSlot, message: String){
         whiteboardSlot = slot
+        textMessage = message 
     }
 }
 
