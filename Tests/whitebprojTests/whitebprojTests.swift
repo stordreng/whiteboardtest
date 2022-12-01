@@ -6,6 +6,8 @@ final class whitebprojTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(whitebproj().text, "Hello, World!")
+        XCTAssertEqual(whitebproj().textOne, "Message Received")
+        XCTAssertEqual(whitebproj().textTwo, "Roger That")
+        XCTAssertEqual(whitebproj().textThree, "I am intact!")
     }
 }
