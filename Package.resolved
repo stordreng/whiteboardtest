@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "gusimplewhiteboard",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mipalgu/gusimplewhiteboard.git",
+      "state" : {
+        "branch" : "cwhiteboard",
+        "revision" : "8aa7d7261e7a50214ad9474a8c718e82087cd0f7"
+      }
+    },
+    {
+      "identity" : "swift-whiteboard",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mipalgu/swift-whiteboard.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f663aeb47896d5870620d9b6e1fc3be1d9130add"
+      }
+    }
+  ],
+  "version" : 2
+}
