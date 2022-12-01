@@ -17,5 +17,13 @@ enum GlobalWhiteboardSlot: Int, WhiteboardSlot {
     case messageThree = 3
 }
 
+struct TextMessage: WhiteboardSlotted, Equatable {
+    var whiteboardSlot: GlobalWhiteboardSlot
+    let message: String
+    
+    public init(slot: String){
+        whiteboardSlot = slot
+    }
+}
 
 let testWhiteboard = Whiteboard()
