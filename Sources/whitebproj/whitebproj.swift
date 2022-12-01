@@ -7,4 +7,11 @@ public struct whitebproj {
     }
 }
 
+enum GlobalWhiteboardSlot: Int, WhiteboardSlot {
+    case messageOne = 1
+    case messageTwo = 2
+    case messageThree = 3
+}
+
+
 let testWhiteboard = Whiteboard()
