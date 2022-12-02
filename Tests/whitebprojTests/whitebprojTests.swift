@@ -10,8 +10,8 @@ final class whitebprojTests: XCTestCase {
         XCTAssertEqual(whitebproj().textThree, "I am intact!")
     }
 
-    func messageStructTest() throws {
-        // how to write test for initialisation failure? eg, non enum passed. - is this redundant?
+    func messageTest() throws {
+        // how to write test for struct initialisation failure? eg, non enum passed/wrong parameters. - is this redundant?
         let testWhiteboard = Whiteboard()
         let messageIndex = whitebproj()
 
