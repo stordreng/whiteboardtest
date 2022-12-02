@@ -19,9 +19,9 @@ enum GlobalWhiteboardSlot: Int, WhiteboardSlot {
     case messageThree = 3
 }
 
-/// #TextMessage struct
-/// this struct contains the slot in which the message should be placed
-/// and the message itself
+/// #TextMessage structs
+/// these structs contain the slot in which the message should be placed
+/// and the message itself. Due to the WhiteboardSlotted protocol each message must have its own struct
 struct TextMessageOne: WhiteboardSlotted, Equatable {
     static let whiteboardSlot: GlobalWhiteboardSlot = .messageOne
     let textMessage: String
