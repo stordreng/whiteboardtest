@@ -21,8 +21,7 @@ enum GlobalWhiteboardSlot: Int, WhiteboardSlot {
 
 /// #TextMessage struct
 /// this struct contains the slot in which the message should be placed
-/// and the message itself.
-/// It is initialised with both variables as inputs
+/// and the message itself
 struct TextMessageOne: WhiteboardSlotted, Equatable {
     static let whiteboardSlot: GlobalWhiteboardSlot = .messageOne
     let textMessage: String
@@ -31,7 +30,3 @@ struct TextMessageOne: WhiteboardSlotted, Equatable {
         textMessage = message 
     }
 }
-
-let testWhiteboard = Whiteboard()
-let messageIndex = whitebproj()
-let testMessage = TextMessageOne(message: messageIndex.textOne)
