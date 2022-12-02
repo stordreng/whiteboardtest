@@ -30,3 +30,21 @@ struct TextMessageOne: WhiteboardSlotted, Equatable {
         textMessage = message 
     }
 }
+
+struct TextMessageTwo: WhiteboardSlotted, Equatable {
+    static let whiteboardSlot: GlobalWhiteboardSlot = .messageTwo
+    let textMessage: String
+
+    public init(message: String){
+        textMessage = message 
+    }
+}
+
+struct TextMessageThree: WhiteboardSlotted, Equatable {
+    static let whiteboardSlot: GlobalWhiteboardSlot = .messageThree
+    let textMessage: String
+
+    public init(message: String){
+        textMessage = message 
+    }
+}
