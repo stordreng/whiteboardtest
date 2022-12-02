@@ -11,7 +11,3 @@ jobs:
     linux:
         uses: gilmourspace/workflows/.github/workflows/linux-ci-swift.yml@v1
         secrets: inherit
-
-    linux-native:
-        uses: gilmourspace/workflows/.github/workflows/linux-native-swift.yml@v1
-        secrets: inherit
