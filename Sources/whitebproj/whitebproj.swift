@@ -33,3 +33,5 @@ struct TextMessageOne: WhiteboardSlotted, Equatable {
 }
 
 let testWhiteboard = Whiteboard()
+let messageIndex = whitebproj()
+let testMessage = TextMessageOne(message: messageIndex.textOne)

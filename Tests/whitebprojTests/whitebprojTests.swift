@@ -11,7 +11,5 @@ final class whitebprojTests: XCTestCase {
 
     func messageStructTest() throws {
         // how to write test for initialisation failure? eg, non enum passed. 
-        let newMessage = TextMessage(slot: GlobalWhiteboardSlot.messageOne, message: whitebproj.textOne)
-        print(newMessage)
     }
 }
